@@ -13,6 +13,7 @@ public class Vivienda {
 
     /**
      * @return the precio
+     * Devuelve el precio
      */
     public double getPrecio() {
         return precio;
@@ -20,6 +21,7 @@ public class Vivienda {
 
     /**
      * @param precio the precio to set
+     * Establece el precio
      */
     public void setPrecio(double precio) {
         this.precio = precio;
@@ -27,6 +29,7 @@ public class Vivienda {
 
     /**
      * @return the numHabitaciones
+     * Devuelve el numero de habitaciones
      */
     public int getNumHabitaciones() {
         return numHabitaciones;
@@ -34,6 +37,7 @@ public class Vivienda {
 
     /**
      * @param numHabitaciones the numHabitaciones to set
+     * Establece numero de habitaciones
      */
     public void setNumHabitaciones(int numHabitaciones) {
         this.numHabitaciones = numHabitaciones;
@@ -41,6 +45,7 @@ public class Vivienda {
 
     /**
      * @return the superficie
+     * Devuelve la superficie
      */
     public double getSuperficie() {
         return superficie;
@@ -48,6 +53,7 @@ public class Vivienda {
 
     /**
      * @param superficie the superficie to set
+     * Establece la superficie
      */
     public void setSuperficie(double superficie) {
         this.superficie = superficie;
@@ -55,6 +61,7 @@ public class Vivienda {
 
     /**
      * @return the parking
+     * Devuelve parking
      */
     public boolean isParking() {
         return parking;
@@ -62,6 +69,7 @@ public class Vivienda {
 
     /**
      * @param parking the parking to set
+     * Establece parking
      */
     public void setParking(boolean parking) {
         this.parking = parking;
@@ -69,6 +77,7 @@ public class Vivienda {
 
     /**
      * @return the estado
+     * Devuelve estado
      */
     public String getEstado() {
         return estado;
@@ -76,6 +85,7 @@ public class Vivienda {
 
     /**
      * @param estado the estado to set
+     * Establece estado
      */
     public void setEstado(String estado) {
         this.estado = estado;
@@ -83,6 +93,7 @@ public class Vivienda {
 
     /**
      * @return the propietario
+     * Devuelve propietario
      */
     public String getPropietario() {
         return propietario;
@@ -90,6 +101,7 @@ public class Vivienda {
 
     /**
      * @param propietario the propietario to set
+     * Establece propietario
      */
     public void setPropietario(String propietario) {
         this.propietario = propietario;
@@ -103,11 +115,29 @@ public class Vivienda {
     
     public Vivienda(double pre, int numha, double superf, boolean park, String est, String prop) {
         precio = pre;
+        /**
+     Atributo tipo double referente al precio
+     */
         numHabitaciones = numha;  
+        /**
+     Atributo tipo entero referente al numero de habitaciones
+     */
         superficie = superf;
+        /**
+     Atributo tipo double referente a la superficie
+     */
         parking = park;
+        /**
+     Atributo referente al parking
+     */
         estado = est;
+        /**
+     Atributo tipo string referente al estado
+     */
         propietario = prop;
+        /**
+     Atributo tipo string referente al propietario
+     */
         }
     
     public Vivienda (double precio)
